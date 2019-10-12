@@ -57,7 +57,7 @@ go test ./... -v -cover
 	sm.AddStateTransition(s0)
 	sm.AddStateTransition(s1)
 
-    input :=  "1100"
+        input :=  "1100"
 	err := sm.Transition(input)
 
 	if err != nil {
