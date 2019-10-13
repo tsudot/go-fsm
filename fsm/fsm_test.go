@@ -12,6 +12,8 @@ func TestFSM(t *testing.T) {
 	}{
 		{"110", "S0"},
 		{"1010", "S1"},
+		{"100011011", "S1"},
+		{"100011", "S2"},
 	}
 
 	for _, table := range tables {
