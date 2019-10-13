@@ -1,2 +1,3 @@
-   ./go-fsm 
-   ./main
+   go-fsm 
+   main
+   *.swp
